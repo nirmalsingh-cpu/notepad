@@ -1,0 +1,45 @@
+{
+  "name": "Lummu - Notes & Calculator",
+  "short_name": "Lummu",
+  "description": "A powerful note-taking app with built-in calculator and custom backgrounds",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["productivity", "utilities", "business"],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png", 
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Note",
+      "short_name": "Note",
+      "description": "Create a new note quickly",
+      "url": "/?tab=notes",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Calculator",
+      "short_name": "Calc",
+      "description": "Open calculator",
+      "url": "/?tab=calculato
